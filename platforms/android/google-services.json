@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "830060532430",
+    "firebase_url": "https://angularnativedemo.firebaseio.com",
+    "project_id": "angularnativedemo",
+    "storage_bucket": "angularnativedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830060532430:android:cfec1c2ba9bf937e",
+        "android_client_info": {
+          "package_name": "org.nativescript.projectsetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830060532430-ilna2gmo9hpijkf1eldo208q23v35lin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg0f7RVpy1FeAHllQhEMo3NBIzWEODLbM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
