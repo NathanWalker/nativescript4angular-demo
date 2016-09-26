@@ -1,0 +1,22 @@
+﻿@import '~/css/core.light.css'; 
+
+.grey-page {
+    background-color:#efefef;
+}
+
+.list-group {
+    height: 100%;
+}
+
+.action-title {
+    vertical-align: center;
+}
+
+.shimmer-area {
+    width:100%;
+    background-color: #000;
+    font-size:50;
+    color:#999;
+    padding:20 0 20 0;
+    text-align: center;
+}

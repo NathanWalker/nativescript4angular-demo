@@ -1,0 +1,17 @@
+<ActionBar title="Firebase List" icon="">
+  <NavigationButton text="Back"></NavigationButton>
+  <ActionItem (tap)="add()" ios.position="right">
+    <Button text="Add"></Button>
+  </ActionItem>
+</ActionBar>
+<StackLayout>
+  <ListView [items]="(list$ | async)?.items" class="list-group">
+      <template let-item="item" let-odd="odd" let-even="even">
+          <GridLayout rows="auto" columns="auto">
+              <Label [text]="item.title" textWrap="true" class="list-group-item"></Label>
+              
+          </GridLayout>
+      </template>
+  </ListView>
+
+</StackLayout>

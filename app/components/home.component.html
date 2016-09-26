@@ -1,0 +1,21 @@
+<ActionBar title="Angular Native" icon="">
+</ActionBar>
+<GridLayout rows="auto,*,auto" columns="auto" modal-dialog-host>
+  <StackLayout class="p-20" row="0" col="0">
+    <Label text="Tap the button" class="h1 text-center"></Label>
+
+    <Button text="TAP" (tap)="onTap()" class="btn btn-primary"></Button>
+
+    <Label [text]="message" class="message" textWrap="true" class="h2 text-center"></Label>
+
+    <Button text="Open List" [nsRouterLink]="['/list']" class="btn btn-primary"></Button>
+
+    <Button text="Open Modal" (tap)="openModal()" class="btn btn-primary"></Button>
+  </StackLayout>
+  
+  <StackLayout class="shimmer-area" row="2" col="0">
+    <Shimmer>
+      <Label text="TypeScriptPDX"></Label>
+    </Shimmer>
+  </StackLayout>
+</GridLayout>

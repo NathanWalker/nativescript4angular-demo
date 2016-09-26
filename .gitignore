@@ -1,0 +1,8 @@
+*.js
+*.map
+node_modules
+hooks
+lib
+/platforms
+!/platforms/android/build.gradle
+!/platforms/android/google-services.json
