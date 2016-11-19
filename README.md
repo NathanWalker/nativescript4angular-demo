@@ -1,3 +1,3 @@
-## Angular Native Demo app
+## NativeScript for Angular Demo app
 
-Demontrating key essentials with Angular Native in as simple a setup as possible.
+Demonstrating key essentials with NativeScript for Angular in as simple a setup as possible.
